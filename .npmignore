@@ -1,0 +1,11 @@
+# In our .gitignore file, we added /lib since we don’t want the build-files in our git repository. 
+# The opposite goes for a published package. 
+# We don’t want the source code, only the build-files!
+
+# This is blacklisting(Not that good,as need to add new files), 
+# Whitelisting is good in package.json(files[])
+
+src
+tsconfig.json
+tslint.json
+.prettierrc
