@@ -1,0 +1,3 @@
+export const additon = (x: number, y: number) => {
+    return x + y;
+}
